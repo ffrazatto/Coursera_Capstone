@@ -1,0 +1,17 @@
+Business Problem:
+
+In 2012, the song "Gangnam Style' by Psy, was the first YouTube video to achieve 1 billion views, it was one of the many hits that the K-Pop music genre
+would produce thoughout the years. It have been 8 years since than and the rise of K-Pop has levered the interest in  South Korea's culture worldwide.
+As this interest does not seems to be slowing, it would be interesting to explore the viability of opening a Korean Barbecue restaurant in a Brazilian
+city.
+
+But some questions must be answered first: are there any interest in South Korean culture in Brazil, specially in São Paulo state? Would it be too much
+competition or almost none for this restaurant category? And, most importatly, where would be a great place to open it?
+
+To answer these questions I will first use Google Trends to measure the popularity of some relevant South Korean terms, and to find out about venue
+distribution on Barão Geraldo, a district from Campinas, São Paulo, I will use an free API named 'CEP Aberto' to acquire neighborhood geolocations
+and Foursquare's API for venue infomation.
+
+Brazil's Postal Code Addressing, or CEP, is a system created in 1971 to facilitate the mail distribution, but, til this day, it lacks an associated 
+geolocation system. It is extremely difficult to find this information, and what information is available is charged by Brazil's Postal Service.
+Because of this, the most difficult task will be mine each CEP geolocation and associate it with it's neighborhood.
