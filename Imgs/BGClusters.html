@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3007c293e06746f6aade6146b4753bcb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3007c293e06746f6aade6146b4753bcb" ></div>
+        
+</body>
+<script>    
+    
+            var map_3007c293e06746f6aade6146b4753bcb = L.map(
+                "map_3007c293e06746f6aade6146b4753bcb",
+                {
+                    center: [-22.8268729, -47.08280626558812],
+                    crs: L.CRS.EPSG3857,
+                    preferCanvas: false,
+                    zoom: 15,
+                    zoomControl: true,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2ab05874718242268cf03546b5133d38 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+            var circle_marker_5d9906ff45f64dc18768acc5cc13675c = L.circleMarker(
+                [-22.8283775, -47.0782217],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_858af5f09541403aba97ff79000e4c10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_973d7222c1a64340a2f6e6aaa5452bdd = $(`<div id="html_973d7222c1a64340a2f6e6aaa5452bdd" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 1</div>`)[0];
+            popup_858af5f09541403aba97ff79000e4c10.setContent(html_973d7222c1a64340a2f6e6aaa5452bdd);
+        
+
+        circle_marker_5d9906ff45f64dc18768acc5cc13675c.bindPopup(popup_858af5f09541403aba97ff79000e4c10)
+        ;
+
+        
+    
+    
+            var circle_marker_db00e74d34ae41f99069086fafd05114 = L.circleMarker(
+                [-22.8231516, -47.0816365],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_2959a0de4c5f42e0874679d6a9d37719 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51be009b2c6e4da4952f501b9089c52c = $(`<div id="html_51be009b2c6e4da4952f501b9089c52c" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 1</div>`)[0];
+            popup_2959a0de4c5f42e0874679d6a9d37719.setContent(html_51be009b2c6e4da4952f501b9089c52c);
+        
+
+        circle_marker_db00e74d34ae41f99069086fafd05114.bindPopup(popup_2959a0de4c5f42e0874679d6a9d37719)
+        ;
+
+        
+    
+    
+            var circle_marker_54c8dd1ada914167a2f8145b024f1074 = L.circleMarker(
+                [-22.8182648, -47.0934144],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_f0742632e87d4efc9fec9a812c38d6f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_715d195ac71c4802a315d1df56288fee = $(`<div id="html_715d195ac71c4802a315d1df56288fee" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 4</div>`)[0];
+            popup_f0742632e87d4efc9fec9a812c38d6f1.setContent(html_715d195ac71c4802a315d1df56288fee);
+        
+
+        circle_marker_54c8dd1ada914167a2f8145b024f1074.bindPopup(popup_f0742632e87d4efc9fec9a812c38d6f1)
+        ;
+
+        
+    
+    
+            var circle_marker_ad93c5f0b13941b68a2fa76c190d9161 = L.circleMarker(
+                [-22.8206049, -47.0882139],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_788f346dba6f4f418a4d72935b4b2d27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e52057b3c19042f7bb76638bb4109be1 = $(`<div id="html_e52057b3c19042f7bb76638bb4109be1" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 1</div>`)[0];
+            popup_788f346dba6f4f418a4d72935b4b2d27.setContent(html_e52057b3c19042f7bb76638bb4109be1);
+        
+
+        circle_marker_ad93c5f0b13941b68a2fa76c190d9161.bindPopup(popup_788f346dba6f4f418a4d72935b4b2d27)
+        ;
+
+        
+    
+    
+            var circle_marker_4d54d3fc750641d8829ed29fb38842a0 = L.circleMarker(
+                [-22.8265647, -47.0848405],
+                {"bubblingMouseEvents": true, "color": "#10a2f0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10a2f0", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_545633445ef7401886c56fac1de09c34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cc5a04fffef4f409670263fbe217abe = $(`<div id="html_5cc5a04fffef4f409670263fbe217abe" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 3</div>`)[0];
+            popup_545633445ef7401886c56fac1de09c34.setContent(html_5cc5a04fffef4f409670263fbe217abe);
+        
+
+        circle_marker_4d54d3fc750641d8829ed29fb38842a0.bindPopup(popup_545633445ef7401886c56fac1de09c34)
+        ;
+
+        
+    
+    
+            var circle_marker_dfa4ae9b6d1f4e32ac0dd8852b6182b1 = L.circleMarker(
+                [-22.8212066, -47.0834485],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_b0cc63c84188492f9710302317435cd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e34b9aab7d3d4434a50a013ceea60c72 = $(`<div id="html_e34b9aab7d3d4434a50a013ceea60c72" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 1</div>`)[0];
+            popup_b0cc63c84188492f9710302317435cd8.setContent(html_e34b9aab7d3d4434a50a013ceea60c72);
+        
+
+        circle_marker_dfa4ae9b6d1f4e32ac0dd8852b6182b1.bindPopup(popup_b0cc63c84188492f9710302317435cd8)
+        ;
+
+        
+    
+    
+            var circle_marker_060f9b6ed5e24278bd27a7550381f74e = L.circleMarker(
+                [-22.8212364, -47.081627],
+                {"bubblingMouseEvents": true, "color": "#10a2f0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10a2f0", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_8e39ac102f164730b988753833611906 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30c1661e48514175b14aaaa703ca1d48 = $(`<div id="html_30c1661e48514175b14aaaa703ca1d48" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 3</div>`)[0];
+            popup_8e39ac102f164730b988753833611906.setContent(html_30c1661e48514175b14aaaa703ca1d48);
+        
+
+        circle_marker_060f9b6ed5e24278bd27a7550381f74e.bindPopup(popup_8e39ac102f164730b988753833611906)
+        ;
+
+        
+    
+    
+            var circle_marker_3cbe3dbf0ec0401eaefe1130b08e0ec5 = L.circleMarker(
+                [-22.7835333, -47.0490539],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_d06adbd78b1648779a1f168814f158ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e62888eec2d94e85a6d876626822eede = $(`<div id="html_e62888eec2d94e85a6d876626822eede" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 1</div>`)[0];
+            popup_d06adbd78b1648779a1f168814f158ef.setContent(html_e62888eec2d94e85a6d876626822eede);
+        
+
+        circle_marker_3cbe3dbf0ec0401eaefe1130b08e0ec5.bindPopup(popup_d06adbd78b1648779a1f168814f158ef)
+        ;
+
+        
+    
+    
+            var circle_marker_39b8607daa32422394b2e7c6b9305b33 = L.circleMarker(
+                [-22.8290679, -47.0785026],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_3ec648cf83f04d568bef64f0d5e30b7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_874d2f4d4173433abfe5d5f0f9c57397 = $(`<div id="html_874d2f4d4173433abfe5d5f0f9c57397" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 1</div>`)[0];
+            popup_3ec648cf83f04d568bef64f0d5e30b7b.setContent(html_874d2f4d4173433abfe5d5f0f9c57397);
+        
+
+        circle_marker_39b8607daa32422394b2e7c6b9305b33.bindPopup(popup_3ec648cf83f04d568bef64f0d5e30b7b)
+        ;
+
+        
+    
+    
+            var circle_marker_a6e369cd6a9647fdb8fafe8aaaf843bd = L.circleMarker(
+                [-22.8300633, -47.0819825],
+                {"bubblingMouseEvents": true, "color": "#ff562c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff562c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_712eb8741dfc412d80967222feb5efbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_256984c0752945bba80268c1b442b41f = $(`<div id="html_256984c0752945bba80268c1b442b41f" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 9</div>`)[0];
+            popup_712eb8741dfc412d80967222feb5efbe.setContent(html_256984c0752945bba80268c1b442b41f);
+        
+
+        circle_marker_a6e369cd6a9647fdb8fafe8aaaf843bd.bindPopup(popup_712eb8741dfc412d80967222feb5efbe)
+        ;
+
+        
+    
+    
+            var circle_marker_ae31b8231b084237a04dec8c377d8c26 = L.circleMarker(
+                [-22.8230177, -47.0810412],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_7b73032382854bcc9c6c0fc764eb958e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5078c02ff8bf448085bb9fbd83e2dbc2 = $(`<div id="html_5078c02ff8bf448085bb9fbd83e2dbc2" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 4</div>`)[0];
+            popup_7b73032382854bcc9c6c0fc764eb958e.setContent(html_5078c02ff8bf448085bb9fbd83e2dbc2);
+        
+
+        circle_marker_ae31b8231b084237a04dec8c377d8c26.bindPopup(popup_7b73032382854bcc9c6c0fc764eb958e)
+        ;
+
+        
+    
+    
+            var circle_marker_6cfbe2fab276477e9dae4eeef8ce377f = L.circleMarker(
+                [-22.8279428, -47.0767646],
+                {"bubblingMouseEvents": true, "color": "#4856fb", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4856fb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_21f4e98327de4b198000f64aa704e6b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_409ee06b1f274c3dbd4d94389ab2966b = $(`<div id="html_409ee06b1f274c3dbd4d94389ab2966b" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 2</div>`)[0];
+            popup_21f4e98327de4b198000f64aa704e6b1.setContent(html_409ee06b1f274c3dbd4d94389ab2966b);
+        
+
+        circle_marker_6cfbe2fab276477e9dae4eeef8ce377f.bindPopup(popup_21f4e98327de4b198000f64aa704e6b1)
+        ;
+
+        
+    
+    
+            var circle_marker_a25a74aa44594294a038137457f3b748 = L.circleMarker(
+                [-22.8196293, -47.0874587],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_5d073a4406d148318042824b9a5a59ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_429be0a3f2a94959851dd15931eb73fa = $(`<div id="html_429be0a3f2a94959851dd15931eb73fa" style="width: 100.0%; height: 100.0%;">Barão Geraldo Cluster 1</div>`)[0];
+            popup_5d073a4406d148318042824b9a5a59ec.setContent(html_429be0a3f2a94959851dd15931eb73fa);
+        
+
+        circle_marker_a25a74aa44594294a038137457f3b748.bindPopup(popup_5d073a4406d148318042824b9a5a59ec)
+        ;
+
+        
+    
+    
+            var circle_marker_cb0c2c522e99421f8e809abb3a161f08 = L.circleMarker(
+                [-22.8273433, -47.1027559],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_7e56e8a95af345d8b8244e850a70ae40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53c9f0823652444e8658b08d79253467 = $(`<div id="html_53c9f0823652444e8658b08d79253467" style="width: 100.0%; height: 100.0%;">Bosque de Barão Geraldo Cluster 1</div>`)[0];
+            popup_7e56e8a95af345d8b8244e850a70ae40.setContent(html_53c9f0823652444e8658b08d79253467);
+        
+
+        circle_marker_cb0c2c522e99421f8e809abb3a161f08.bindPopup(popup_7e56e8a95af345d8b8244e850a70ae40)
+        ;
+
+        
+    
+    
+            var circle_marker_c52bcebd6dfe4915b130b84e28a2faec = L.circleMarker(
+                [-22.8275758, -47.1041097],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_50ff4ba2865448ccb67e752c433c35a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e14d8bae062c4c159cc50a18aabae023 = $(`<div id="html_e14d8bae062c4c159cc50a18aabae023" style="width: 100.0%; height: 100.0%;">Bosque de Barão Geraldo Cluster 1</div>`)[0];
+            popup_50ff4ba2865448ccb67e752c433c35a3.setContent(html_e14d8bae062c4c159cc50a18aabae023);
+        
+
+        circle_marker_c52bcebd6dfe4915b130b84e28a2faec.bindPopup(popup_50ff4ba2865448ccb67e752c433c35a3)
+        ;
+
+        
+    
+    
+            var circle_marker_790c7208701f4ecbbfae00f5b1f1ebad = L.circleMarker(
+                [-22.8288126, -47.1016654],
+                {"bubblingMouseEvents": true, "color": "#ffa256", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa256", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_0adef88487a24f66a1681a7ad503bead = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2217df0b38e4aea8f9428a091212505 = $(`<div id="html_e2217df0b38e4aea8f9428a091212505" style="width: 100.0%; height: 100.0%;">Bosque de Barão Geraldo Cluster 8</div>`)[0];
+            popup_0adef88487a24f66a1681a7ad503bead.setContent(html_e2217df0b38e4aea8f9428a091212505);
+        
+
+        circle_marker_790c7208701f4ecbbfae00f5b1f1ebad.bindPopup(popup_0adef88487a24f66a1681a7ad503bead)
+        ;
+
+        
+    
+    
+            var circle_marker_36c96b30ccde44f091c5b0fa38ff26d6 = L.circleMarker(
+                [-22.821452, -47.0763068],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_26d8b139331e48549600a2409f74567e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5020677ed0a24361a42ab517361a762a = $(`<div id="html_5020677ed0a24361a42ab517361a762a" style="width: 100.0%; height: 100.0%;">Jardim Novo Barão Geraldo Cluster 4</div>`)[0];
+            popup_26d8b139331e48549600a2409f74567e.setContent(html_5020677ed0a24361a42ab517361a762a);
+        
+
+        circle_marker_36c96b30ccde44f091c5b0fa38ff26d6.bindPopup(popup_26d8b139331e48549600a2409f74567e)
+        ;
+
+        
+    
+    
+            var circle_marker_bc412a35ff20464ab773dc87de849db3 = L.circleMarker(
+                [-22.8218153, -47.0779786],
+                {"bubblingMouseEvents": true, "color": "#62fbc4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#62fbc4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_2bb4e583c4ca41cd9b69535f0ce5aa55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0438b8e62fff43baa6ab0a1dbdcf38b1 = $(`<div id="html_0438b8e62fff43baa6ab0a1dbdcf38b1" style="width: 100.0%; height: 100.0%;">Jardim Novo Barão Geraldo Cluster 5</div>`)[0];
+            popup_2bb4e583c4ca41cd9b69535f0ce5aa55.setContent(html_0438b8e62fff43baa6ab0a1dbdcf38b1);
+        
+
+        circle_marker_bc412a35ff20464ab773dc87de849db3.bindPopup(popup_2bb4e583c4ca41cd9b69535f0ce5aa55)
+        ;
+
+        
+    
+    
+            var circle_marker_31b69dc3c9c7497cbb0c5da7ec655137 = L.circleMarker(
+                [-22.8234998, -47.0765396],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_ce8fc17ff19a42a090fd301f8dcce7d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a291e0ffe5f148d5901a303a10b6403e = $(`<div id="html_a291e0ffe5f148d5901a303a10b6403e" style="width: 100.0%; height: 100.0%;">Jardim Novo Barão Geraldo Cluster 0</div>`)[0];
+            popup_ce8fc17ff19a42a090fd301f8dcce7d6.setContent(html_a291e0ffe5f148d5901a303a10b6403e);
+        
+
+        circle_marker_31b69dc3c9c7497cbb0c5da7ec655137.bindPopup(popup_ce8fc17ff19a42a090fd301f8dcce7d6)
+        ;
+
+        
+    
+    
+            var circle_marker_9c89724ac2494d8890149b0883a7a0b0 = L.circleMarker(
+                [-22.8337836, -47.0841558],
+                {"bubblingMouseEvents": true, "color": "#9cfba4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cfba4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_3bc19311d87f4e1ba61d8848a14327a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a54721d8e5c4fa8aef724c2c6924e4d = $(`<div id="html_4a54721d8e5c4fa8aef724c2c6924e4d" style="width: 100.0%; height: 100.0%;">Jardim Santa Genebra II (Barão Geraldo) Cluster 6</div>`)[0];
+            popup_3bc19311d87f4e1ba61d8848a14327a0.setContent(html_4a54721d8e5c4fa8aef724c2c6924e4d);
+        
+
+        circle_marker_9c89724ac2494d8890149b0883a7a0b0.bindPopup(popup_3bc19311d87f4e1ba61d8848a14327a0)
+        ;
+
+        
+    
+    
+            var circle_marker_9bb120c79724456f9265284a5d557af1 = L.circleMarker(
+                [-22.8315661, -47.0789425],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_a6211819158049209164d755cec39b82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33acb707b90b4371b98b979ea7144c66 = $(`<div id="html_33acb707b90b4371b98b979ea7144c66" style="width: 100.0%; height: 100.0%;">Jardim Santa Genebra II (Barão Geraldo) Cluster 1</div>`)[0];
+            popup_a6211819158049209164d755cec39b82.setContent(html_33acb707b90b4371b98b979ea7144c66);
+        
+
+        circle_marker_9bb120c79724456f9265284a5d557af1.bindPopup(popup_a6211819158049209164d755cec39b82)
+        ;
+
+        
+    
+    
+            var circle_marker_09b125458bf84b01bf1f060181b61557 = L.circleMarker(
+                [-22.8339432, -47.0809105],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_d4944ad07aed4b26917c53cd4bade110 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b75f4373084043df840a2977cb8f9f1a = $(`<div id="html_b75f4373084043df840a2977cb8f9f1a" style="width: 100.0%; height: 100.0%;">Jardim Santa Genebra II (Barão Geraldo) Cluster 1</div>`)[0];
+            popup_d4944ad07aed4b26917c53cd4bade110.setContent(html_b75f4373084043df840a2977cb8f9f1a);
+        
+
+        circle_marker_09b125458bf84b01bf1f060181b61557.bindPopup(popup_d4944ad07aed4b26917c53cd4bade110)
+        ;
+
+        
+    
+    
+            var circle_marker_cdf18246b3f5438dbe6f066c8905de5b = L.circleMarker(
+                [-22.8309147, -47.0837275],
+                {"bubblingMouseEvents": true, "color": "#d4dd80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d4dd80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_da005ed9021d415da1abedeeb0b11651 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59621971ed5548c2ac68cfda7b421842 = $(`<div id="html_59621971ed5548c2ac68cfda7b421842" style="width: 100.0%; height: 100.0%;">Jardim Santa Genebra II (Barão Geraldo) Cluster 7</div>`)[0];
+            popup_da005ed9021d415da1abedeeb0b11651.setContent(html_59621971ed5548c2ac68cfda7b421842);
+        
+
+        circle_marker_cdf18246b3f5438dbe6f066c8905de5b.bindPopup(popup_da005ed9021d415da1abedeeb0b11651)
+        ;
+
+        
+    
+    
+            var circle_marker_5120408f24ca46bb967cf326324dbb65 = L.circleMarker(
+                [-22.7982815, -47.0706492],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3007c293e06746f6aade6146b4753bcb);
+        
+    
+        var popup_960fcd50dba74947b47de7ddbc9573ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed8a7ad2fb694bc79c4fb335d9076249 = $(`<div id="html_ed8a7ad2fb694bc79c4fb335d9076249" style="width: 100.0%; height: 100.0%;">Residencial Estância Eudóxia (Barão Geraldo) Cluster 4</div>`)[0];
+            popup_960fcd50dba74947b47de7ddbc9573ab.setContent(html_ed8a7ad2fb694bc79c4fb335d9076249);
+        
+
+        circle_marker_5120408f24ca46bb967cf326324dbb65.bindPopup(popup_960fcd50dba74947b47de7ddbc9573ab)
+        ;
+
+        
+    
+</script>
