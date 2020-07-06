@@ -2,6 +2,6 @@ Business Problem:
 
 In 2012, the song "Gangnam Style" by the Psy, was the first YouTube video to achieve 1 billion views, it was one of the many hits that the K-Pop music genre would produce throughout the years. It have been 8 years since than and the rise of K-Pop has levered the interest in  South Korea's culture worldwide.
 
-As this interest does not seems to be slowing, it would be interesting to explore the viability of opening a Korean Barbecue restaurant in a Brazilian city.
+Using this new found taste for Korean culture, an Brazilian entrepreneur thinks it would be a good idea to open a Korean Barbecue restaurant in Barão Geraldo, a district of the city of Campinas, São Paulo, home of Unicamp, the second best Brazilian University. 
 
-But some questions must be answered first: are there any interest in South Korean culture in Brazil, specially in São Paulo state? Would it have too much competition or almost none for this restaurant category? And, most importantly, where would be a great place to open it?
+But first the entrepreneur employs a data scientist to study his case: are there any interest in South Korean culture in Brazil, specially in São Paulo state? Would it have too much competition or almost none for this restaurant category? And, most importantly, where would be a great place to open it?

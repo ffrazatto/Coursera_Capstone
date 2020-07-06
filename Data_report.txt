@@ -3,3 +3,7 @@ Data:
 To answer these questions I will first use Google Trends to measure the popularity of some relevant South Korean terms; to find out about venue distribution on Barão Geraldo, a district from Campinas, São Paulo, I will use a free API named 'CEP Aberto' to acquire neighborhood geolocations and, finally, I'll use Foursquare's API for venue information.
 
 Brazil's Postal Code Addressing, or CEP, is a system created in 1971 to facilitate the mail distribution, but, until this day, it lacks an associated geolocation system. It is extremely difficult to find this information, and what information is available is charged by Brazil's Postal Service. Because of this, the most difficult task will be mine each CEP geolocation and associate it with it's neighborhood.
+
+Afterwards, Foursquare will be used to acquire information about which avenues exist each CEP neighborhood and study if there are any tendency or a saturation of some kind in the venues categories.
+
+Finally, the venues categories will be clustered using machine learning and the best location for the restaurant will be decided.
